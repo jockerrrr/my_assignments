@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background-image: url(../images/background\ image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-logo {
+    float: left;
+}
+.links li {
+    float: right;
+    list-style: none;
+    padding: 30px;
+}
+
+.links a {
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.clear-fix {
+    clear: both;
+}
+
+.nav-logo img {
+    width: 60%;
+    padding: 30px 90px;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+}
+
+.welcome h2 {
+    color: #ffffff;
+}
+
+.welcome h1 {
+    color: rgb(220, 143, 0);
+    padding: 60px 0;
+}
+
+.welcome p {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.welcome .btn {
+    padding: 10px 25px;
+    color: #ffffff;
+    background-color: rgb(177, 130, 68);
+    cursor: pointer;
+    border: none;
+    transition: all .2s;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.welcome .btn:hover {
+    opacity: .8;
+}
+
+.who {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.who-image {
+    float: left;
+    width: 45%;
+}
+
+.who-image img {
+    width: 100%;
+}
+
+.who-content {
+    float: right;
+    width: 45%;
+}
+
+.who-content p {
+    padding-top: 15px;
+    color: rgb(103, 103, 103);
+}
+
+.who-icons {
+    margin: 30px 0;
+}
+
+.who-icons img {
+    float: left;
+}
+
+.who-icons p {
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.location-back {
+    background-color: rgb(239, 239, 239);
+    padding: 50px 0;
+}
+
+.location {
+    width: 90%;
+    margin: auto;
+}
+
+.location-content {
+    float: left;
+    width: 50%;
+}
+
+.location-content h2 {
+    padding: 50px 0;
+}
+
+.location-content p {
+    color: rgb(103, 103, 103);
+}
+
+.location-img {
+    float: right;
+    width: 50%;
+}
+
+.location-img img {
+    width: 100%;
+}
+
+.baking {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.baking-title {
+    text-align: center;
+}
+
+.baking-title p {
+    color: rgb(103, 103, 103);
+    padding: 40px 0;
+}
+
+.baking-item {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.ss {
+    margin: 0 5%;
+}
+
+.baking-item img {
+    width: 100%;
+}
+
+.baking-item h3 {
+    padding: 30px 0;
+}
+
+.baking-item p {
+    color: rgb(103, 103, 103);
+}
+
+.contact {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.contact-content {
+    float: left;
+    width: 50%;
+}
+
+.contact-content h2 {
+    padding: 50px 0;
+}
+
+.info-content img {
+    float: left;
+    width: 10%;
+    padding: 10px;
+}
+
+.info-content p {
+    float: left;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.contact-content p {
+    color: rgb(103, 103, 103);
+}
+
+.contact-img {
+    float: right;
+    width: 50%;
+}
+
+.contact-img img {
+    width: 100%;
+}
+
+.about {
+    background-color: rgb(71, 60, 60);
+}
+
+.about-content {
+    width: 90%;
+    margin: auto;
+}
+
+.about-content-1 {
+    width: 20%;
+    float: left;
+    margin: 50px 0;
+}
+.sf{
+    margin: 50px 6.5%;
+}
+.sa{
+    margin-right: 6.5%;
+}
+.about-content-1 ul li , .about-content-1 p{
+    color: rgb(154, 154, 154);
+}
+.about-content-1 h3{
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+.footer{
+    background-color: #353330;
+    margin: auto;
+    text-align: center;
+    padding: 70px 0;
+}
+.footer p{
+    color: rgb(103, 103, 103);
+    padding-bottom: 15px;
+}
+.social-links i{
+    font-size: 30px;
+    background-color: #353330;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.links li a:hover{
+    color: rgb(220, 143, 0);
+}
